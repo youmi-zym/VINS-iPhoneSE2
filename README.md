@@ -27,20 +27,23 @@ The code has been compiled on macOS Sierra with Xcode 8.3.1 and tested with iOS 
 
 1.1 Install boost for macOS
 ```
+# install brew if not
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ brew install boost
 ```
 
-1.2 Download specific **opencv2.framework** from [here](http://uav.ust.hk/storage/opencv2.framework.zip), then unzip it to VINS_ThirdPartyLib/opencv2.framework
-    **(Please make sure you haven't installed opencv for your OSX)**
+1.2 Download specific **opencv2.framework** from [opencv2.framework.zip](http://uav.ust.hk/storage/opencv2.framework.zip), then unzip it to VINS_ThirdPartyLib/opencv2.framework
 
-1.3 In your Xcode, select **Product**-> **Scheme**-> **Edit Scheme**-> **Run**-> **Info**, set **Build Configuration** to **Release** (not debug)
+1.3.1 In your Xcode, select **Product**-> **Scheme**-> **Edit Scheme**-> **Run**-> **Info**, set **Build Configuration** to **Release** (not debug)
+1.3.2 In your Xcode, remember to register a Xcode account 
 
-1.4 **Slect your device** at upper left corner, then **choose your device size** at Main.storyboard, build and run
+1.4.1 **Slect your device** at upper left corner
+1.4.2 **choose your device size** at Main.storyboard
+1.4.3 build and run
 
 1.5 Compatible Devices and iOS version requiements
 
-	iPhone7 Plus, iPhone7, iPhone6s Plus, iPhone6s, iPhoneSE2 iPad Pro
+	iPhone7 Plus, iPhone7, iPhone6s Plus, iPhone6s, iPhoneSE2, iPad Pro
 	iOS 10.2.1 and above
 
 ## 2. Acknowledgements
