@@ -35,10 +35,13 @@ $ brew install boost
 1.2 Download specific **opencv2.framework** from [opencv2.framework.zip](http://uav.ust.hk/storage/opencv2.framework.zip), then unzip it to VINS_ThirdPartyLib/opencv2.framework
 
 1.3.1 In your Xcode, select **Product**-> **Scheme**-> **Edit Scheme**-> **Run**-> **Info**, set **Build Configuration** to **Release** (not debug)
+
 1.3.2 In your Xcode, remember to register a Xcode account 
 
 1.4.1 **Slect your device** at upper left corner
+
 1.4.2 **choose your device size** at Main.storyboard
+
 1.4.3 build and run
 
 1.5 Compatible Devices and iOS version requiements
